@@ -1,0 +1,94 @@
+@media (max-width:991px) {
+    .nav_control ul {
+        align-items: end;
+        padding: 0 25px;
+    }
+    .navbar-brand {
+        margin-right: 0;
+        width: 50%;
+    }
+    .logo img {
+        width: 40%;
+    }
+    .slider_height h1 {
+        font-size: 42px;
+        margin: 20px 0;
+    }
+    .slider_height h3 {
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+}
+
+@media (max-width:767px) {
+    .logo img {
+        width: 45%;
+    }
+    .quo_img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .quo_img img {
+        width: 120px;
+    }
+    .event h3 {
+        font-size: 45px;
+    }
+    .event .event_box:first-child {
+        margin-bottom: 2rem;
+    }
+    .tour .col-md-4:first-child {
+        margin-bottom: 2rem;
+    }
+    footer p span {
+        display: block;
+        margin-top: 5px;
+    }
+    footer p span:first-child {
+        display: none;
+    }
+    footer p span:nth-child(3) {
+        display: none;
+    }
+    footer p:first-child {
+        color: #999;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width:575px) {
+    .logo img {
+        width: 65%;
+    }
+    .slider_height h3 {
+        font-size: 22px;
+    }
+    .slider_height h1 {
+        font-size: 35px;
+        letter-spacing: -0.5px;
+    }
+    .btn-learn-more {
+        padding: 10px 15px;
+    }
+    .event h3 {
+        font-size: 30px;
+        letter-spacing: -0.5px;
+    }
+    .event p {
+        width: 100%;
+    }
+    .explore h2 {
+        font-size: 30px;
+        letter-spacing: -0.5px;
+    }
+    .explore p {
+        width: 100%;
+    }
+    .explore span {
+        margin: 15px 0;
+    }
+    .tour span {
+        margin: 15px 0;
+    }
+}
